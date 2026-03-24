@@ -1,9 +1,9 @@
 import os.path
 import sys
 sys.path.append("yolov10")
-# Download from https://github.com/ultralytics/ultralytics to get yolov10
+# We just upload the key files of yolov10 for detection, so you need to download the full code of yolov10 to run this code successfully. Download from https://github.com/ultralytics/ultralytics,
 sys.path.append("FastSAM")
-# Download from https://github.com/CASIA-IVA-Lab/FastSAM.git to get FastSAM
+# We just upload the key files of FastSAM for detection, so you need to download the full code of FastSAM to run this code successfully. Download from https://github.com/CASIA-IVA-Lab/FastSAM.git
 from yolov10.Detection import GetLocation
 from FastSAM.segment import segment
 
